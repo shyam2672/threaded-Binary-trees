@@ -20,6 +20,7 @@ Also used in systems where hardware space is limited.
 Advantages of Threaded Binary Tree:
 -> In threaded binary tree, linear and fast traversal of nodes in the tree so there is no requirement of stack. If the stack is used then it consumes a lot of memory and time.
 -> It is more general as one can efficiently determine the successor and predecessor of any node by simply following the thread and links. It almost behaves like a circular linked list.
+-> Used in Morris traversal to modify the binary search tree and to detect the swapped elements in th binary search tree.
 
 How To Run?
 Enter I to insert elements.
